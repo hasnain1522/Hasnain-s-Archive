@@ -104,6 +104,7 @@ export default function BootScreen({ onEnter }) {
   return (
     <main className="boot-screen">
       <section className="boot-panel">
+        <div className="welcome-banner">WELCOME</div>
         <header className="boot-header">
           <div className="boot-title">{SYSTEM_IDENTITY.name}</div>
           <div className="boot-subtitle">
