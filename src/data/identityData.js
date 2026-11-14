@@ -3,8 +3,6 @@ export const IDENTITY_FOCUS = [
 ];
 
 export const PERSONAL_INFO = {
-  Age: ": 18",
-  DOB: ": 22 MARCH",
   Traits: ": CURIOUS • CREATIVE • PROBLEM SOLVER",
 };
 
