@@ -104,7 +104,7 @@ export default function BootScreen({ onEnter }) {
   return (
     <main className="boot-screen">
       <section className="boot-panel">
-        <div className="welcome-banner">WELCOME</div>
+        <div className="welcome-banner">WELCOME TO</div>
         <header className="boot-header">
           <div className="boot-title">{SYSTEM_IDENTITY.name}</div>
           <div className="boot-subtitle">
@@ -120,7 +120,7 @@ export default function BootScreen({ onEnter }) {
             </div>
 
             <p className="start-description">
-              System is standing by. Initialize to begin the portfolio
+              Initialize to begin the portfolio
               experience.
             </p>
 
