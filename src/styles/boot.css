@@ -506,3 +506,52 @@
     filter: none;
   }
 }
+
+
+/* Initial boot screen: fit everything inside one viewport */
+.boot-screen:has(.system-start) {
+  box-sizing: border-box;
+  height: 100dvh;
+  min-height: 100dvh;
+  overflow: hidden;
+  padding: 18px 20px;
+}
+
+.boot-screen:has(.system-start) .boot-panel {
+  box-sizing: border-box;
+  position: relative;
+  height: 100%;
+  min-height: 0;
+  padding-bottom: 28px;
+}
+
+.boot-screen:has(.system-start) .welcome-banner {
+  margin-bottom: 12px;
+}
+
+.boot-screen:has(.system-start) .boot-header {
+  margin-bottom: 18px;
+}
+
+.boot-screen:has(.system-start) .system-start {
+  min-height: 0;
+  flex: 1;
+}
+
+.boot-screen:has(.system-start) .start-scan {
+  width: clamp(90px, 15vh, 150px);
+  height: clamp(90px, 15vh, 150px);
+  margin-bottom: 18px;
+}
+
+.boot-screen:has(.system-start) .start-description {
+  margin: 12px 0 18px;
+}
+
+.boot-screen:has(.system-start) .system-version {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
