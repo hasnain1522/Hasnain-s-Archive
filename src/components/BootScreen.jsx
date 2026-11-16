@@ -205,18 +205,18 @@ export default function BootScreen({ onEnter }) {
       <div className="jarvis-ambient jarvis-ambient-two" />
       <div className="jarvis-scanlines" />
       <button type="button" className="boot-mode-switch jarvis-mode-switch" onClick={switchBootMode}>
-        CLASSIC BOOT
+        PREVIOUS BOOT
       </button>
 
       <section className="jarvis-shell">
         <div className="jarvis-topline">
-          <span>STARK INDUSTRIES // PERSONAL INTERFACE</span>
-          <span>J.A.R.V.I.S. OS <i className="jarvis-live-dot" /> ONLINE</span>
+          <span>HASNAIN // PERSONAL INTERFACE</span>
+          <span>HASNAIN OS <i className="jarvis-live-dot" /> ONLINE</span>
         </div>
 
         <header className="jarvis-heading">
-          <div className="jarvis-eyebrow">JUST A RATHER VERY INTELLIGENT SYSTEM</div>
-          <h1 className="jarvis-title">J.A.R.V.I.S.</h1>
+          <div className="jarvis-eyebrow">PERSONAL AI-INSPIRED PORTFOLIO INTERFACE</div>
+          <h1 className="jarvis-title">HASNAIN</h1>
           <div className="jarvis-title-rule"><span /></div>
           <p className="jarvis-subtitle">{SYSTEM_IDENTITY.name.toUpperCase()}</p>
         </header>
@@ -259,7 +259,7 @@ export default function BootScreen({ onEnter }) {
         )}
 
         <footer className="jarvis-footer">
-          <span>INTERFACE DESIGNED FOR {SYSTEM_IDENTITY.owner.toUpperCase()}</span>
+          <span>PERSONAL PORTFOLIO INTERFACE</span>
           <span>{SYSTEM_IDENTITY.version} // SECURE CONNECTION</span>
         </footer>
       </section>
