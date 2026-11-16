@@ -189,12 +189,12 @@
 .start-button:hover {
   background: linear-gradient(
     145deg,
-    #ff3333,
-    #e60000,
-    #a00000
+    #8b0000,
+    #c62828,
+    #650000
   );
    box-shadow: 0 0 22px rgba(255, 30, 30, 0.6);
-  color: #050505;
+  color: #ffffff;
   border-color: #ff7777;
   transform: translateY(-2px);
 }
