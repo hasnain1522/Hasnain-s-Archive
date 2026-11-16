@@ -555,3 +555,57 @@
   margin: 0;
   padding: 0;
 }
+
+
+/* Ready identity typography and matching action button */
+.boot-identity h1 {
+  font-family: "Orbitron", sans-serif;
+  font-size: clamp(1.55rem, 4vw, 2.5rem);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  line-height: 1.2;
+}
+
+.enter-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 18px;
+  padding: 15px 24px;
+  border: 1px solid #e05252;
+  background: linear-gradient(145deg, #8b0000, #c62828, #650000);
+  color: #ffffff;
+  box-shadow: 0 0 12px rgba(180, 0, 0, 0.3);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.78rem;
+  letter-spacing: 0.14em;
+  transition: background 0.25s ease, border-color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.enter-button:hover {
+  background: linear-gradient(145deg, #8b0000, #c62828, #650000);
+  box-shadow: 0 0 22px rgba(255, 30, 30, 0.6);
+  color: #ffffff;
+  border-color: #ff7777;
+  transform: translateY(-2px);
+}
+
+.enter-button:active {
+  transform: translateY(0);
+}
+
+.enter-button .start-button-arrow {
+  font-size: 1rem;
+  transition: transform 0.25s ease;
+}
+
+.enter-button:hover .start-button-arrow {
+  transform: translateX(4px);
+}
+
+@media (max-width: 600px) {
+  .boot-identity h1 {
+    font-size: 1.65rem;
+    letter-spacing: 0.045em;
+  }
+}
