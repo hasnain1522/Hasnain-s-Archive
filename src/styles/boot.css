@@ -15,7 +15,7 @@
   overflow-y: auto;
   overflow-x: hidden;
 
-  padding: 40px 20px;
+  padding: 24px 20px;
 }
 
 
@@ -25,10 +25,11 @@
 
 .boot-panel {
   width: min(900px, 100%);
-  min-height: calc(100vh - 80px);
+  min-height: calc(100vh - 48px);
 
   margin: 0 auto;
-
+  position: relative;
+  padding-bottom: 35px;
   display: flex;
   flex-direction: column;
 }
@@ -404,8 +405,11 @@
    ========================================================= */
 
 .system-version {
-  margin-top: 0px;
-  padding-top: 30px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
 
   color: #555555;
 
