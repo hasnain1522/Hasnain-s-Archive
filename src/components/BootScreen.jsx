@@ -167,7 +167,8 @@ export default function BootScreen({ onEnter }) {
                     className="enter-button"
                     onClick={onEnter}
                   >
-                    ENTER SYSTEM
+                    <span>ENTER SYSTEM</span>
+                    <span className="start-button-arrow">→</span>
                   </button>
                 </div>
               )}
