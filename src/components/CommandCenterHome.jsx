@@ -22,10 +22,10 @@ export default function CommandCenterHome({ onOpen }) {
         <div className="system-state"><span className="online-dot" />SYSTEM ONLINE</div>
       </header>
       <section className="command-hero">
-        <div className="hero-index"><span>HASNAIN'S PORTFOLIO / COMMAND CENTER</span></div>
+        <div className="hero-index"><span>HASNAIN'S ARCHIVE / COMMAND CENTER</span></div>
         <div className="command-hero-content">
           <div className="hero-copy">
-            <div className="hero-eyebrow">PERSONAL OPERATING SYSTEM</div>
+            <div className="hero-eyebrow">PERSONAL DIGITAL ARCHIVE</div>
             <h1>{SYSTEM_IDENTITY.owner}</h1>
             <div className="command-hero-photo-wrap">
               <div className="arc-ring arc-ring-one" /><div className="arc-ring arc-ring-two" />
@@ -54,7 +54,7 @@ export default function CommandCenterHome({ onOpen }) {
           ))}
         </div>
       </section>
-      <footer className="command-footer"><span>HASNAIN'S PORTFOLIO / COMMAND CENTER</span><span>CORE // AWAITING COMMAND</span></footer>
+      <footer className="command-footer"><span>HASNAIN'S ARCHIVE / COMMAND CENTER</span><span>CORE // AWAITING COMMAND</span></footer>
     </main>
   );
 }
