@@ -120,8 +120,7 @@ export default function BootScreen({ onEnter }) {
             </div>
 
             <p className="start-description">
-              Initialize to begin the portfolio
-              experience.
+              Initialize to explore the archive.
             </p>
 
             <button
@@ -167,7 +166,7 @@ export default function BootScreen({ onEnter }) {
                     className="enter-button"
                     onClick={onEnter}
                   >
-                    <span>ENTER SYSTEM</span>
+                    <span>ENTER ARCHIVE</span>
                     <span className="start-button-arrow">→</span>
                   </button>
                 </div>
