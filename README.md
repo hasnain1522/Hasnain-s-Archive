@@ -1,20 +1,20 @@
-# ⚡ Hasnain.OS
+# Hasnain's Archive
 
 > **Mohammed Hasnain — CSE AI/ML Student**
 
-An interactive, Jarvis-inspired developer portfolio designed as a personal digital command center.
+A personal digital archive documenting projects, experiments, technical growth and future ideas through an interactive, Jarvis-inspired command-center experience.
 
-## What is Hasnain.OS?
+## What is Hasnain's Archive?
 
-Hasnain.OS turns a conventional portfolio into an explorable software experience. The interface follows a lightweight operating-system metaphor:
+Hasnain's Archive is more than a conventional portfolio. It is a growing record of work, learning, experiments and ambitions.
+
+The experience follows:
 
 **Boot → Identity Core → Command Center → Projects → Tech Core → Experience → AI Lab → Future Builds**
 
 ## Why I Built It
 
-I wanted my portfolio to demonstrate more than a list of skills. It should show how I learn, build, experiment and think about products.
-
-The project addresses common portfolio problems: static presentation, weak project context, scattered information and little demonstration of frontend/product engineering.
+I wanted one place to bring together the things I build, the technologies I explore, the experiences that shape me and the ideas I want to pursue. The archive is designed to evolve as that journey continues.
 
 ## Featured Project: RFPulse
 
@@ -32,18 +32,12 @@ Instead of treating every proposal as a blank page, RFPulse connects new RFP req
 **Stack:** React / Vite, FastAPI, Groq, Hindsight, SQLite  
 **Repository:** https://github.com/hasnain1522/RFPulse
 
-The portfolio includes RFPulse as part of the project and AI-lab story so the site reflects not only personal branding, but also the real systems built during hackathons.
-
-## Design Inspiration
-
-The interaction language is inspired by futuristic command centers and the Jarvis/Tony Stark style of presenting information. The goal is to create that feeling with practical web technologies rather than copy a movie interface.
-
 ## Core Modules
 
 - **Boot System** — startup sequence and system initialization.
 - **Identity Core** — essential profile information.
 - **Command Center** — main navigation hub.
-- **Project Database** — projects, experiments and future products, including RFPulse.
+- **Project Database** — projects, experiments and future products.
 - **Tech Core** — technologies and current learning areas.
 - **Experience Matrix** — education, technical activities and hackathons.
 - **AI Lab** — AI/ML, Agentic AI and project experiments such as RFPulse.
@@ -65,27 +59,25 @@ The interaction language is inspired by futuristic command centers and the Jarvi
 Boot System
     │
     ▼
-System Data ──► Command Center
-                   │
-       ┌───────────┼───────────┐
-       ▼           ▼           ▼
-   Identity     Projects    Tech Core
-       │           │           │
-       └───────────┼───────────┘
-                   ▼
-           Experience / AI Lab
-                   │
-                   ├── RFPulse
-                   │
-                   ▼
-             Future Builds
+Identity Core ──► Command Center
+                      │
+          ┌───────────┼───────────┐
+          ▼           ▼           ▼
+      Projects     Tech Core   Experience
+          │           │           │
+          └───────────┼───────────┘
+                      ▼
+                  AI Lab
+                      │
+                      ▼
+                 Future Builds
 ```
 
 ## Local Setup
 
 ```bash
-git clone https://github.com/hasnain1522/HasnainOS.git
-cd HasnainOS
+git clone https://github.com/hasnain1522/Hasnain-s-Archive.git
+cd Hasnain-s-Archive
 npm install
 npm run dev
 ```
@@ -98,24 +90,22 @@ npm run build
 
 ## Voice & Interaction
 
-The portfolio concept includes optional voice interaction and a welcome experience around: **Welcome to Hasnain's Portfolio.** Voice is an enhancement, not a requirement.
+The archive includes an optional voice-enabled welcome experience. Voice is an enhancement, not a requirement.
 
 ## Current Status
 
-**IN DEVELOPMENT** — UI, responsive behavior, content architecture and runtime stability are still being refined.
+**IN DEVELOPMENT** — UI, responsive behavior, content architecture and runtime stability are being refined.
 
 ## What I Learned
 
 React architecture, state-driven UI, responsive design, animation, deployment/debugging, separating content from presentation and personal-brand product design.
 
-Building and documenting projects such as **RFPulse** also gives the portfolio a real engineering narrative: problem → prototype → hackathon build → lessons learned → iteration.
-
 ## Future Direction
 
 - richer command interactions
 - stronger mobile accessibility
-- project case studies
-- AI-assisted portfolio exploration
+- detailed project case studies
+- AI-assisted archive exploration
 - additional voice interactions
 - deeper project evidence and hackathon case studies
 
