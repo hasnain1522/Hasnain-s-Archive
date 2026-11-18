@@ -93,9 +93,6 @@ export default function BootScreen({ onEnter }) {
       if (cancelledRef.current) return;
 
       setShowIdentity(true);
-      await audioEngine.playAndWait(
-        "/sounds/voice/welcome-to-hasnain's portfolio.mp3"
-      );
     };
 
     boot();
