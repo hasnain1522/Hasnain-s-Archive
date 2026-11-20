@@ -34,7 +34,6 @@ export default function BootScreen({ onEnter }) {
     setStarted(true);
 
     const boot = async () => {
-      await audioEngine.playAndWait("/sounds/voice/archive-welcome.mp3");
       await audioEngine.playAndWait("/sounds/voice/initializing-system.mp3");
       await wait(350);
       if (cancelledRef.current) return;
@@ -94,6 +93,7 @@ export default function BootScreen({ onEnter }) {
       if (cancelledRef.current) return;
 
       setShowIdentity(true);
+      await audioEngine.playAndWait("/sounds/voice/archive-welcome.mp3");
     };
 
     boot();
