@@ -611,3 +611,42 @@
     letter-spacing: 0.045em;
   }
 }
+
+
+/* Boot experience stays within the viewport; no page scrolling. */
+.boot-screen {
+  height: 100dvh;
+  min-height: 100dvh;
+  overflow: hidden;
+}
+
+.boot-panel {
+  height: 100%;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.boot-identity {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .boot-screen {
+    padding: 18px 16px;
+  }
+
+  .boot-panel {
+    min-height: 0;
+  }
+
+  .ready-message {
+    min-height: 0;
+    margin-top: 42px;
+  }
+
+  .boot-identity {
+    margin-top: 30px;
+  }
+}
