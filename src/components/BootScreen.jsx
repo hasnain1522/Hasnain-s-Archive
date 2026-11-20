@@ -156,10 +156,11 @@ export default function BootScreen({ onEnter }) {
               </div>
 
               {showIdentity && (
-                /*<div className="boot-identity">
+                /*
                   <h1>{SYSTEM_IDENTITY.owner}</h1>
                   <p>{SYSTEM_IDENTITY.role}</p>*/
-                  <button
+                  <div className="boot-identity">
+                    <button
                     type="button"
                     className="enter-button"
                     onClick={onEnter}
