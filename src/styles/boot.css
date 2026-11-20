@@ -353,6 +353,7 @@
   font-size: clamp(1.8rem, 4vw, 3rem);
   font-weight: 500;
   line-height: 1.1;
+  color: #B59410;
 }
 
 .boot-identity p {
@@ -564,6 +565,7 @@
   font-weight: 700;
   letter-spacing: 0.08em;
   line-height: 1.2;
+  color:#B59410;
 }
 
 .enter-button {
