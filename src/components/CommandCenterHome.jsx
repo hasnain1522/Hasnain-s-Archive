@@ -14,18 +14,15 @@ export default function CommandCenterHome({ onOpen }) {
 
   return (
     <main className="command-center">
-      <div className="welcome-banner">WELCOME</div>
       <div className="hud-corner hud-corner-tl" /><div className="hud-corner hud-corner-tr" />
       <div className="hud-corner hud-corner-bl" /><div className="hud-corner hud-corner-br" />
       <header className="command-header">
-        <div className="system-brand"><span className="system-name">{SYSTEM_IDENTITY.name}</span><span className="system-version">{SYSTEM_IDENTITY.version}</span></div>
-        <div className="system-state"><span className="online-dot" />SYSTEM ONLINE</div>
+        <div className="system-brand"><span className="system-name">{SYSTEM_IDENTITY.name}</span><span className="system-context">COMMAND CENTER</span><span className="system-version">{SYSTEM_IDENTITY.version}</span></div>
+        <div className="system-context system-context-right">PERSONAL DIGITAL ARCHIVE</div>
       </header>
       <section className="command-hero">
-        <div className="hero-index"><span>HASNAIN'S ARCHIVE / COMMAND CENTER</span></div>
         <div className="command-hero-content">
           <div className="hero-copy">
-            <div className="hero-eyebrow">PERSONAL DIGITAL ARCHIVE</div>
             <h1>{SYSTEM_IDENTITY.owner}</h1>
             <div className="command-hero-photo-wrap">
               <div className="arc-ring arc-ring-one" /><div className="arc-ring arc-ring-two" />
@@ -37,10 +34,6 @@ export default function CommandCenterHome({ onOpen }) {
             <p className="hero-role">{SYSTEM_IDENTITY.role}</p>
             <p className="hero-description">A CSE AI/ML student learning, experimenting and building practical systems across AI, web development and software engineering.</p>
           </div>
-        </div>
-        <div className="command-telemetry">
-          <div><span>BUILD STATE</span><b>ACTIVE</b></div><div><span>PROJECTS</span><b>03</b></div>
-          <div><span>HACKATHONS</span><b>03</b></div><div><span>AI TRACK</span><b>ONLINE</b></div>
         </div>
       </section>
       <section className="module-section">
@@ -54,7 +47,6 @@ export default function CommandCenterHome({ onOpen }) {
           ))}
         </div>
       </section>
-      <footer className="command-footer"><span>HASNAIN'S ARCHIVE / COMMAND CENTER</span><span>CORE // AWAITING COMMAND</span></footer>
     </main>
   );
 }
