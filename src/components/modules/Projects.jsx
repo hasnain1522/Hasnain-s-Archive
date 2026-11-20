@@ -3,7 +3,7 @@ import { HACKATHONS, PROJECTS } from "../../data/projectData";
 import "../../styles/projects.css";
 
 function ProjectRecord({ item, index, onSelect }) {
-  return <button type="button" className="project-record" style={{ "--delay": `${index * 100}ms` }} onClick={() => onSelect(item.id)}><span className="record-number">[{item.id}]</span><span className="record-main"><span className="record-type">{item.type || item.event}</span><strong>{item.name}</strong><span>{item.summary}</span></span><span className="record-status"><i />{item.status}</span><span className="record-arrow">↗</span></button>;
+  return <button type="button" className="project-record" style={{ "--delay": `${index * 100}ms` }} onClick={() => onSelect(item.id)}><span className="record-number">[{item.id}]</span><span className="record-main"><span className="record-type">{item.type || item.event}</span><strong>{item.name}</strong><span>{item.summary}</span>{item.participation && <span className="record-participation">{item.participation}</span>}</span><span className="record-status"><i />{item.status}</span><span className="record-arrow">↗</span></button>;
 }
 
 export default function Projects({ onBack }) {
