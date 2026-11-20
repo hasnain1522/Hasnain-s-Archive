@@ -16,3 +16,20 @@
 .project-links{display:flex;gap:15px;margin-top:30px}.project-links a{color:#b7c9d1;text-decoration:none;border:1px solid rgba(98,216,255,.2);padding:13px 16px;font-size:.6rem;letter-spacing:.12em;transition:.25s}.project-links a:hover{background:#62d8ff;color:#031016;border-color:#62d8ff;box-shadow:0 0 24px rgba(98,216,255,.18)}
 @keyframes scan{0%{transform:translateY(0)}50%{transform:translateY(108vh)}100%{transform:translateY(0)}}@keyframes recordIn{to{opacity:1;transform:none}}
 @media(max-width:700px){.projects-interface{padding:20px 16px}.projects-header{font-size:.52rem}.projects-header span:nth-child(2){display:none}.projects-hero{padding:12vh 0 8vh}.database-telemetry{gap:16px}.database-section-label{font-size:.5rem}.project-record{grid-template-columns:45px 1fr 25px}.record-status{display:none}.record-main strong{font-size:1rem}.record-main>span:last-child{font-size:.65rem}.projects-footer{flex-direction:column;gap:10px}.project-detail{margin-top:10vh}.project-detail-title-row{gap:12px}.project-detail-grid{grid-template-columns:1fr}.project-links{flex-direction:column}.project-links a{text-align:center}.evolution-line{padding-left:20px}.evolution-line article{grid-template-columns:35px 1fr}}
+
+
+.record-participation {
+  display: block;
+  color: #b69a62 !important;
+  font-size: .66rem !important;
+  line-height: 1.6;
+  margin-top: 2px;
+}
+.project-participation {
+  margin-top: 24px;
+  padding: 22px 24px;
+  border: 1px solid rgba(214,171,92,.2);
+  background: rgba(214,171,92,.035);
+}
+.project-participation .hud-label { margin-bottom: 10px; color: #b69a62; }
+.project-participation p { margin: 0; color: #b9c7cc; font-size: .78rem; line-height: 1.75; }
