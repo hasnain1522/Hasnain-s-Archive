@@ -7,7 +7,6 @@ import { SYSTEM_IDENTITY } from "../data/systemIdentity";
 const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 export default function BootScreen({ onEnter }) {
-  const readyMessageRef = useRef(null);
   const cancelledRef = useRef(false);
   const startedRef = useRef(false);
 
@@ -34,6 +33,8 @@ export default function BootScreen({ onEnter }) {
     setStarted(true);
 
     const boot = async () => {
+      await audioEngine.playAndWait("/sounds/voice/archive-welcome.mp3");
+      if (cancelledRef.current) return;
       await audioEngine.playAndWait("/sounds/voice/initializing-system.mp3");
       await wait(350);
       if (cancelledRef.current) return;
@@ -79,11 +80,6 @@ export default function BootScreen({ onEnter }) {
       setCurrentModule(-1);
       if (cancelledRef.current) return;
 
-      readyMessageRef.current?.scrollIntoView({
-        behavior: "smooth",
-        block: "center",
-      });
-
       await wait(700);
       if (cancelledRef.current) return;
 
@@ -93,7 +89,6 @@ export default function BootScreen({ onEnter }) {
       if (cancelledRef.current) return;
 
       setShowIdentity(true);
-      await audioEngine.playAndWait("/sounds/voice/archive-welcome.mp3");
     };
 
     boot();
@@ -147,7 +142,6 @@ export default function BootScreen({ onEnter }) {
             </section>
 
             <section
-              ref={readyMessageRef}
               className={`ready-message ${systemReady ? "visible" : ""}`}
             >
               <div className="system-status">
