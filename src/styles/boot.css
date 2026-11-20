@@ -670,3 +670,15 @@
     margin-top: 20px;
   }
 }
+
+
+/* Lift the Enter Archive button clear of the bottom edge. */
+.boot-identity {
+  transform: translateY(-48px);
+}
+
+@media (max-width: 600px) {
+  .boot-identity {
+    transform: translateY(-28px);
+  }
+}
