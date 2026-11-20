@@ -23,3 +23,21 @@
 .command-center>.welcome-banner{position:relative;z-index:4;width:100%;text-align:center;margin:0 auto 12px;color:#d6b77a;font-size:.72rem;font-weight:500;letter-spacing:.42em;opacity:0;transform:translateY(-14px);filter:blur(5px);animation:welcomeReveal 1.1s cubic-bezier(.2,.75,.25,1) .18s forwards;text-shadow:0 0 18px rgba(214,171,92,.28)}
 @keyframes welcomeReveal{to{opacity:1;transform:translateY(0);filter:blur(0)}}
 @media(prefers-reduced-motion:reduce){.command-center>.welcome-banner{animation:none;opacity:1;transform:none;filter:none}}
+
+
+/* Refined command-centre header */
+.command-header { min-height: 58px; }
+.system-brand { gap: 16px; flex-wrap: wrap; }
+.system-context {
+  color: #7d98a5;
+  font-size: .62rem;
+  letter-spacing: .17em;
+  white-space: nowrap;
+}
+.system-context-right { margin-left: auto; text-align: right; }
+@media (max-width: 600px) {
+  .command-header { gap: 12px; align-items: flex-start; }
+  .system-brand { gap: 8px 12px; }
+  .system-context { font-size: .52rem; letter-spacing: .1em; }
+  .system-context-right { max-width: 45%; white-space: normal; line-height: 1.5; }
+}
