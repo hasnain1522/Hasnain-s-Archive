@@ -650,3 +650,23 @@
     margin-top: 30px;
   }
 }
+
+
+/* Give the Enter Archive action a little more room above the viewport edge. */
+.ready-message {
+  margin-top: 42px;
+}
+
+.boot-identity {
+  margin-top: 24px;
+}
+
+@media (max-width: 600px) {
+  .ready-message {
+    margin-top: 30px;
+  }
+
+  .boot-identity {
+    margin-top: 20px;
+  }
+}
