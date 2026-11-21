@@ -1,3 +1,5 @@
 /* AI Lab module-specific styling. Shared module primitives live in system-module.css. */
 .ai-lab-module .sm-card{min-height:240px}
 .ai-lab-module .meter{margin-top:30px}
+.ai-lab-module { --module-accent:#2dd4bf; --module-muted:#99f6e4; }
+.ai-lab-module .sm-hero h1 { color:#ccfbf1; }
