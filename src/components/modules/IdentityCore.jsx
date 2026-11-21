@@ -21,7 +21,7 @@ export default function IdentityCore({ onBack }) {
         <article className="identity-card"><span className="card-label">EDUCATION</span><h2>B.Tech CSE (AI/ML)</h2>
           <p>Artificial Intelligence & Machine Learning</p><span className="card-meta">SHADAN COLLEGE OF ENGINEERING & TECHNOLOGY</span></article>
         <article className="identity-card"><span className="card-label">CURRENT MODE</span><h2>LEARNING IMPLEMENTING</h2>
-          <p>Learn → Build → Experiment → Improve</p></article></section>
+          <p>Learning → Building → Experimenting → Improving</p></article></section>
       <section className="focus-section"><div className="section-label">TECHNICAL FOCUS</div>
         <div className="focus-grid">{IDENTITY_FOCUS.map((area)=><div className="focus-item" key={area}>{area}</div>)}</div></section>
       <section className="timeline-section"><div className="section-label">DEVELOPMENT TIMELINE</div>
