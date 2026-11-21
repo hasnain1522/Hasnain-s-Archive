@@ -85,21 +85,22 @@ export const PROJECTS = [
     type: "HTML PRACTICE",
     status: "BUILT",
     repository: "https://github.com/hasnain1522/-Way-Down-We-Go-HTML-Practice-Project",
-    summary: "The next build after the chatbot — an early HTML practice project focused on web structure and page composition.",
-    description: "A learning-focused web build created after the first Python chatbot, giving the portfolio journey a second track: moving from programming logic into HTML structure and browser-based presentation.",
-    stack: ["HTML", "Web Fundamentals"],
+    summary: "An early HTML practice webpage inspired by “Way Down We Go” by KALEO, built to experiment with page structure, text formatting and browser-based media.",
+    description: "Created as a hands-on HTML learning exercise after the first Python chatbot. The project brings headings, links, images, audio, video and formatted text together in a single browser page, while keeping the implementation intentionally simple with HTML5 and basic inline CSS.",
+    stack: ["HTML5", "Basic Inline CSS"],
     classification: "SECOND BUILD",
     projectDetails: [
-      { title: "PROJECT OVERVIEW", description: "An HTML-based lyrics webpage built after completing the fundamentals of HTML. The page is based on “Way Down We Go” by KALEO and was created as a hands-on exercise in combining different HTML elements into one browser page." },
-      { title: "FEATURES & HTML ELEMENTS", items: ["Song title and artist presentation", "Links to the original video sources", "Image element with a linked destination", "Embedded audio player", "Embedded video player", "Lyrics and preformatted text", "Text formatting with bold, italic, underline, strike-through, mark, subscript and superscript", "Basic inline CSS styling"] },
-      { title: "TECHNOLOGY", items: ["HTML5", "Basic CSS / inline CSS", "Visual Studio Code", "No frameworks or external libraries"] },
-      { title: "WHAT I LEARNED", items: ["HTML document structure", "Headings, paragraphs and hyperlinks", "Images, audio and video elements", "HTML attributes and text formatting", "Preformatted text", "Organising media assets and folders", "Basic inline styling"] },
-      { title: "FUTURE IMPROVEMENTS", items: ["Create a dedicated CSS stylesheet", "Improve UI/UX and responsive behaviour", "Separate HTML and CSS", "Add JavaScript interactions", "Improve accessibility", "Explore a modern music-player layout"] }
+      { title: "PROJECT OVERVIEW", description: "A beginner HTML webpage inspired by “Way Down We Go” by KALEO. It was built to practise how different HTML elements work together to create a complete browser page—not as a production music player or commercial website." },
+      { title: "FEATURES & HTML ELEMENTS", items: ["Song title and artist headings", "Links to the original video sources", "Clickable song artwork", "Embedded audio player", "Embedded video element", "Lyrics and preformatted text", "Text formatting with bold, italic, underline, deleted, marked, subscript and superscript text", "Basic inline CSS styling"] },
+      { title: "TECHNOLOGY", items: ["HTML5", "Basic inline CSS", "Visual Studio Code", "No JavaScript, frameworks, build tools or external libraries"] },
+      { title: "PROJECT STRUCTURE", items: ["index.html as the webpage entry point", "Audio folder for the local audio file", "Image folder for the artwork and favicon images", "Video folder for the local video file", "Relative media paths connecting the page to its assets"] },
+      { title: "WHAT I LEARNED", items: ["HTML document structure", "Headings, text and hyperlinks", "Images, audio and video elements", "HTML attributes and relative file paths", "Preformatted text and text-formatting elements", "Organising media assets in folders", "Applying basic inline CSS"] },
+      { title: "FUTURE IMPROVEMENTS", items: ["Move styling into a dedicated CSS stylesheet", "Improve responsive layout and accessibility", "Separate HTML and CSS", "Add JavaScript interactions", "Explore a modern music-player layout"] }
     ],
     evolution: [
       "01 — Came after the first Simple Bank Chatbot build.",
-      "02 — Practiced HTML structure, page composition and web presentation.",
-      "03 — Established the web-development foundation that later projects could build on.",
+      "02 — Practiced HTML structure, links, images, audio, video and text formatting in one webpage.",
+      "03 — Built an early foundation in browser-based web development through hands-on experimentation.",
     ],
   },
   {
