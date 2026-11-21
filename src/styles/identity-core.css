@@ -788,3 +788,44 @@
     margin-top: 10px;
   }
 }
+
+
+
+/* Identity Core — cohesive champagne, cyan and teal visual language */
+.identity-core { background: #101216; color: #edf2f7; }
+.identity-header { border-color: rgba(129,140,248,.24); }
+.identity-header .back-button, .identity-system-status { color: #a5b4c7; }
+.identity-header .back-button:hover { color: #38bdf8; }
+.identity-index, .card-label, .section-label { color: #a5a0f5; }
+.identity-hero h1 {
+  background: linear-gradient(105deg,#fff0c2 0%,#f7d08a 42%,#e09f3e 100%);
+  -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent;
+  filter: drop-shadow(0 8px 24px rgba(224,159,62,.12));
+}
+.identity-role { color:#55c7ff; }
+.identity-personal-info span { color:#a5b4c7; }
+.identity-personal-info strong { color:#2dd4bf; }
+.identity-intro { color:#e2e8f0; }
+.identity-card { background:linear-gradient(145deg,rgba(30,41,59,.22),rgba(15,23,42,.08)); border-color:rgba(148,163,184,.17); }
+.identity-profile h2 { color:#60c9ff; }
+.identity-profile p { color:#d1d9e4; }
+.identity-card:nth-child(2) h2 { color:#f5c96a; }
+.identity-card:nth-child(2) p { color:#e2e8f0; }
+.identity-card:nth-child(2) .card-meta { color:#a5b4c7; }
+.identity-card:nth-child(3) h2 { color:#fb923c; }
+.identity-card:nth-child(3) p { color:#5eead4; }
+.identity-card:nth-child(3) p::first-letter { color:inherit; }
+.focus-item,.hobby-item { color:#cbd5e1; border-color:rgba(148,163,184,.16); }
+.focus-item:hover,.hobby-item:hover { background:rgba(56,189,248,.08); color:#7dd3fc; }
+.timeline-year,.education-year { color:#f0c674; }
+.timeline-marker::before,.education-marker::before { background:#38bdf8; box-shadow:0 0 12px rgba(56,189,248,.55); }
+.timeline-marker::after,.education-marker::after { background:linear-gradient(#38bdf8,rgba(129,140,248,.08)); }
+.timeline-content h3,.education-content h3 { color:#eaf2f8; }
+.timeline-content p,.education-content p { color:#b8c4d2; }
+.education-level { color:#a5a0f5; }
+.identity-footer { border-color:rgba(148,163,184,.18); color:#91a0b3; }
+.identity-footer .back-button { color:#5cccf3; }
+.identity-footer .back-button:hover { color:#f7d08a; }
+@media(max-width:850px) {
+ .identity-card { background:linear-gradient(145deg,rgba(30,41,59,.2),rgba(15,23,42,.06)); }
+}
