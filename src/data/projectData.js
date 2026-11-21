@@ -89,6 +89,13 @@ export const PROJECTS = [
     description: "A learning-focused web build created after the first Python chatbot, giving the portfolio journey a second track: moving from programming logic into HTML structure and browser-based presentation.",
     stack: ["HTML", "Web Fundamentals"],
     classification: "SECOND BUILD",
+    projectDetails: [
+      { title: "PROJECT OVERVIEW", description: "An HTML-based lyrics webpage built after completing the fundamentals of HTML. The page is based on “Way Down We Go” by KALEO and was created as a hands-on exercise in combining different HTML elements into one browser page." },
+      { title: "FEATURES & HTML ELEMENTS", items: ["Song title and artist presentation", "Links to the original video sources", "Image element with a linked destination", "Embedded audio player", "Embedded video player", "Lyrics and preformatted text", "Text formatting with bold, italic, underline, strike-through, mark, subscript and superscript", "Basic inline CSS styling"] },
+      { title: "TECHNOLOGY", items: ["HTML5", "Basic CSS / inline CSS", "Visual Studio Code", "No frameworks or external libraries"] },
+      { title: "WHAT I LEARNED", items: ["HTML document structure", "Headings, paragraphs and hyperlinks", "Images, audio and video elements", "HTML attributes and text formatting", "Preformatted text", "Organising media assets and folders", "Basic inline styling"] },
+      { title: "FUTURE IMPROVEMENTS", items: ["Create a dedicated CSS stylesheet", "Improve UI/UX and responsive behaviour", "Separate HTML and CSS", "Add JavaScript interactions", "Improve accessibility", "Explore a modern music-player layout"] }
+    ],
     evolution: [
       "01 — Came after the first Simple Bank Chatbot build.",
       "02 — Practiced HTML structure, page composition and web presentation.",
@@ -106,6 +113,15 @@ export const PROJECTS = [
     description: "A practical AI engineering project that grew from a career-agent system into a broader decision-support platform with specialist agents, web research, personalization, guardrails and persistent sessions.",
     stack: ["Python", "OpenAI Agents SDK", "FastAPI", "Supabase", "PostgreSQL", "HTML/CSS/JavaScript"],
     classification: "FLAGSHIP AI BUILD",
+    projectDetails: [
+      { title: "PRODUCT DIRECTION", description: "CareerGuide AI is an AI Career Operating System designed to help a user move from a career goal through skill gaps, a learning roadmap, tasks, evidence and job readiness. Its central question is: “What is left for me to become ready?”" },
+      { title: "CORE CAPABILITIES", items: ["Authenticated user accounts", "Persistent career profile", "Career readiness dashboard", "Skill progress and milestones", "Task tracking and next-step guidance", "Authenticated AI chat", "Career, job and business specialist agents", "Current-information web research", "Guardrails and OpenRouter model fallback", "Supabase persistence"] },
+      { title: "AGENT ARCHITECTURE", items: ["Web frontend", "FastAPI backend", "Manager Agent", "Career Specialist", "Job Specialist", "Business Specialist", "Web Research", "Personalized guidance returned to the user"] },
+      { title: "TECHNOLOGY STACK", items: ["Python", "OpenAI Agents SDK", "FastAPI / Uvicorn", "Supabase / PostgreSQL", "OpenRouter", "HTML, CSS and JavaScript", "Render deployment"] },
+      { title: "AUTHENTICATION & DATA", items: ["Login and account creation", "Authenticated dashboard, chat, profile and progress routes", "HTTP-only session cookies", "Backend verifies the authenticated user before accessing personal data", "Supabase-backed career progress and career task records"] },
+      { title: "ENGINEERING PRINCIPLES", items: ["Agents + Tools + Research + Memory + Guardrails + Deployment", "The AI model can be replaced while the user's career state remains persistent", "Personalized guidance should lead to actionable tasks and measurable progress"] },
+      { title: "CURRENT STATUS", description: "Active AI engineering project and Career OS foundation. The product is an evolving system rather than a finished production platform." }
+    ],
     evolution: [
       "01 — Later moved into AI system building with the initial AI-Career-Agent.",
       "02 — Expanded the architecture with a Manager Agent and specialist Career, Job and Business agents.",
@@ -150,7 +166,7 @@ export const HACKATHONS = [
     id: "H02",
     name: "DEVFORGE",
     event: "IBM BOB 2.0 HACKATHON",
-    participation: "Fully online solo participation. I did not progress as a selected entry, and I did not submit a completed competition entry because the end-to-end runtime path was not sufficiently validated before the deadline.",
+    participation: "Fully online solo participation. I did not progress as a selected entry. I did not submit a completed competition entry because the end-to-end runtime path was not sufficiently validated before the deadline.",
     hackathonDetails: {
       format: "Fully online",
       participationType: "Individual / solo",
@@ -180,7 +196,7 @@ export const HACKATHONS = [
   {
     id: "H03",
     name: "RFPULSE",
-    event: "MICROSOFT HACKATHON — RFPULSE",
+    event: "DEVNOVATE × HACK WITH INDIA — HACK WITH HYDERABAD 3.0",
     participation: "Online selection round for consideration in the offline final at Microsoft Office, Hyderabad. Our team was not selected for the offline final.",
     hackathonDetails: {
       format: "Online team-selection round",
