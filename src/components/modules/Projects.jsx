@@ -62,6 +62,13 @@ export default function Projects({ onBack }) {
   <div className="hud-label">CONCEPTS PRACTISED / LEARNING OUTCOMES</div>
   <div className="project-chip-grid learning-chips">{record.learningOutcomes.map((item,index)=><span key={item}><b>{String(index+1).padStart(2,"0")}</b>{item}</span>)}</div>
 </section>}
+{record.projectDetails && <section className="project-detail-sections">
+  {record.projectDetails.map((section,index)=><article key={section.title} className="project-detail-section">
+    <div className="hud-label">{String(index+1).padStart(2,"0")} / {section.title}</div>
+    {section.description && <p>{section.description}</p>}
+    {section.items && <ul>{section.items.map((item)=><li key={item}>{item}</li>)}</ul>}
+  </article>)}
+</section>}
 {record.limitations && <section className="project-limitations">
   <div className="hud-label">SCOPE &amp; TECHNICAL LIMITATIONS</div>
   <ul>{record.limitations.map((item)=><li key={item}>{item}</li>)}</ul>
