@@ -45,6 +45,27 @@ export const PROJECTS = [
       "Rule-based chatbot conversation flow",
     ],
     environment: ["Python 3", "Visual Studio Code", "Python standard library"],
+    runGuide: [
+      "Install Python 3 and verify it with: python --version",
+      "Clone the Simple-Bank-Chatbot repository from GitHub.",
+      "Open the project folder in Visual Studio Code or a terminal.",
+      "Run the program with: python my_chatbot.py",
+      "Type a supported phrase such as 'hello' or 'check balance'. Enter 'exit' to end the session.",
+    ],
+    sampleConversation: [
+      { speaker: "BOT", message: "Welcome to Python Bank Chatbot! By Mohammed Hasnain. Type 'exit' anytime to leave the chat." },
+      { speaker: "YOU", message: "hello" },
+      { speaker: "BOT", message: "Hello! How can I help you today?" },
+      { speaker: "YOU", message: "check balance" },
+      { speaker: "BOT", message: "You can check your balance via net banking or by visiting an ATM." },
+      { speaker: "YOU", message: "exit" },
+      { speaker: "BOT", message: "Thank you for chatting with us. Goodbye!" },
+    ],
+    acknowledgement: {
+      organization: "NGCC Software Technologies, Hyderabad",
+      mentor: "Syed Imran Sir",
+      mentorProfile: "https://www.linkedin.com/in/syed-imran-ahmed-b38b2a21b/",
+    },
     limitations: [
       "Rule-based: it does not understand natural language beyond the predefined exact-match phrases.",
       "Not powered by machine learning, an LLM or a trained AI model.",
