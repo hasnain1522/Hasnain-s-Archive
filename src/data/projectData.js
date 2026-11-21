@@ -13,7 +13,7 @@ export const PROJECTS = [
       title: "AI/ML FOUNDATION BOOTCAMP",
       provider: "NGCC Software Technologies, Hyderabad",
       duration: "1 week",
-      context: "After completing my Intermediate studies, I appeared for the TG EAPCET examination and later attended a one-week AI/ML Bootcamp conducted by NGCC Software Technologies, Hyderabad. I built this Simple Bank Chatbot during the bootcamp as a practical exercise."
+      context: "After completing my Intermediate studies, I appeared for the TG EAPCET examination and later attended a one-week AI/ML Bootcamp conducted by NGCC Software Technologies, Hyderabad. I built this Simple Bank Chatbot during the bootcamp as a practical exercise.",
       learning: "During the bootcamp, I was introduced to concepts related to Artificial Intelligence, Machine Learning, Python and chatbot development. While attending the bootcamp, I applied the concepts being taught by building this simple rule-based Bank Chatbot in Python.",
       acknowledgement: "The bootcamp provided an opportunity to learn and practise introductory AI/ML and Python concepts while building a working beginner-level project."
     },
@@ -74,7 +74,7 @@ export const PROJECTS = [
       "Banking information and sample rates are illustrative predefined responses, not live bank information.",
     ],
     evolution: [
-      "01 — First project: built the Simple Bank Chatbot during the one-week AI/ML Bootcamp at NGCC Software Technologies, Hyderabad."
+      "01 — First project: built the Simple Bank Chatbot during the one-week AI/ML Bootcamp at NGCC Software Technologies, Hyderabad.",
       "02 — Practiced Python fundamentals, user input, conditions and banking-style conversation logic.",
       "03 — Built confidence to move from a first working program into larger web and software experiments.",
     ],
@@ -141,11 +141,11 @@ export const HACKATHONS = [
       format: "Online team-selection round",
       nextStage: "Offline final",
       outcome: "Team not selected for the offline final",
-      context: "StockSense was developed for the Odoo × GCET Hyderabad Hackathon 2026. The online round was the selection stage for teams to progress to the offline final.",
+      context: "The Odoo × GCET Hyderabad Hackathon 2026 set an inventory-management problem statement: build an Inventory Management System. Our team responded to that challenge by developing StockSense. The online round was the selection stage for teams to progress to the offline final.",
       timeline: "Online round completed on 26 September 2026.",
-      challenge: "Design an inventory-management workflow for products, warehouses, locations and stock operations.",
-      solution: "A standalone inventory system covering receipts, deliveries, transfers, adjustments, validation, stock movement history and dashboard metrics.",
-      implementation: "The initial Odoo-oriented concept evolved into a standalone React/Vite frontend, Express API and SQLite database. The current repository does not require an installed Odoo runtime.",
+      challenge: "Odoo’s hackathon problem statement asked teams to build an Inventory Management System. Our team took on that challenge and developed StockSense as our solution.",
+      solution: "StockSense — an inventory-management application covering products, warehouses, locations, receipts, deliveries, transfers, adjustments, validation, stock movement history and dashboard metrics.",
+      implementation: "The team implemented StockSense as a standalone React/Vite frontend, Express API and SQLite database. The project was built in response to the Odoo-set inventory-management challenge; it is not an Odoo module or an Odoo-integrated deployment, and the current repository does not require an installed Odoo runtime.",
       learning: "Practised inventory-domain modelling, REST API design, dashboard development, persistence, validation flows, debugging, team coordination and delivery under time constraints.",
       recordNote: "Documented as an online selection-round team project. It is not presented as an offline finalist or winning entry."
     },
