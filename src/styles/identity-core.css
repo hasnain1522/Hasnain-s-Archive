@@ -829,3 +829,12 @@
 @media(max-width:850px) {
  .identity-card { background:linear-gradient(145deg,rgba(30,41,59,.2),rgba(15,23,42,.06)); }
 }
+
+
+.identity-footer .archive-signature {
+  color: #91a0b3;
+  font-size: .62rem;
+  font-weight: 600;
+  letter-spacing: .16em;
+}
+.identity-system-status { display:none; }
