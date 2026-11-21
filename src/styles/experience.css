@@ -1,2 +1,5 @@
 /* Experience module-specific styling. Shared module primitives live in system-module.css. */
 .experience-module .timeline{max-width:1120px}
+.experience-module { --module-accent:#a78bfa; --module-muted:#c4b5fd; }
+.experience-module .sm-hero h1 { color:#ede9fe; }
+.experience-module .timeline article>span { color:#f5c96a; }
