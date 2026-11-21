@@ -33,3 +33,15 @@
 }
 .project-participation .hud-label { margin-bottom: 10px; color: #b69a62; }
 .project-participation p { margin: 0; color: #b9c7cc; font-size: .78rem; line-height: 1.75; }
+
+/* Project Database — coordinated blue with warm amber competition markers */
+.projects-interface { background:#101216; color:#edf2f7; }
+.projects-interface:before { background-image:linear-gradient(rgba(148,163,184,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(148,163,184,.025) 1px,transparent 1px); }
+.project-record { background:rgba(22,30,42,.72); }
+.project-record:hover { background:linear-gradient(90deg,rgba(56,189,248,.09),rgba(45,212,191,.025)); box-shadow:inset 3px 0 0 #38bdf8; }
+.record-participation { color:#f5c96a !important; }
+.hackathon-label { color:#f5c96a; border-top-color:rgba(245,201,106,.24); }
+.project-participation { border-color:rgba(245,201,106,.24); background:rgba(245,201,106,.045); }
+.project-participation .hud-label { color:#f5c96a; }
+.project-detail-grid strong,.project-index { color:#38bdf8; }
+.project-links a:hover { background:#38bdf8; border-color:#38bdf8; }
