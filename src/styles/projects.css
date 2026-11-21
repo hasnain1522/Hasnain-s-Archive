@@ -92,3 +92,15 @@
  .project-chip-grid { grid-template-columns:1fr; }
  .training-heading h2 { font-size:1.1rem; }
 }
+
+
+/* Quick-start, sample terminal and bootcamp acknowledgement */
+.terminal-conversation { display:grid; gap:10px; padding:20px; border:1px solid rgba(45,212,191,.18); background:#080d12; }
+.terminal-conversation>div { display:grid; grid-template-columns:52px 1fr; gap:12px; font-size:.75rem; line-height:1.7; }
+.terminal-conversation b { color:#2dd4bf; font-size:.62rem; letter-spacing:.12em; padding-top:2px; }
+.terminal-conversation .user-line b { color:#38bdf8; }
+.terminal-conversation span { color:#d1d9e4; overflow-wrap:anywhere; }
+.acknowledgement-section p { color:#cbd5e1; font-size:.78rem; line-height:1.8; }
+.acknowledgement-section strong { color:#f5c96a; font-weight:600; }
+.acknowledgement-section a { color:#38bdf8; text-decoration:none; border-bottom:1px solid rgba(56,189,248,.35); }
+.acknowledgement-section a:hover { color:#2dd4bf; }
