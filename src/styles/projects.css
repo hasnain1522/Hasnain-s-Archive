@@ -45,3 +45,12 @@
 .project-participation .hud-label { color:#f5c96a; }
 .project-detail-grid strong,.project-index { color:#38bdf8; }
 .project-links a:hover { background:#38bdf8; border-color:#38bdf8; }
+
+
+.projects-footer .archive-signature {
+  color: #91a7b4;
+  font-size: .62rem;
+  font-weight: 600;
+  letter-spacing: .16em;
+}
+.projects-online { display:none !important; }
