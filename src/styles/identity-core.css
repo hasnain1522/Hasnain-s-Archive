@@ -695,3 +695,96 @@
   }
 
 }
+
+/* =========================================================
+   IDENTITY CORE — refined spacing and colour system
+   ========================================================= */
+.identity-core {
+  background: #18181b;
+}
+
+.identity-hero {
+  margin: 8vh auto 4vh;
+}
+
+.identity-hero h1 {
+  color: #f7d08a;
+  background: linear-gradient(100deg, #f7d08a 0%, #eab85f 52%, #e09f3e 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.identity-role {
+  margin-top: 14px;
+  color: #38bdf8;
+}
+
+.identity-personal-info {
+  margin-top: 14px;
+  gap: 8px;
+}
+
+.identity-personal-info span {
+  color: #7d8799;
+}
+
+.identity-personal-info strong {
+  color: #14b8a6;
+}
+
+.identity-intro {
+  margin-top: 12px;
+  color: #e5e7eb;
+}
+
+.identity-card .card-label {
+  color: #818cf8;
+}
+
+.identity-profile h2 {
+  color: #38bdf8;
+}
+
+.identity-profile p {
+  color: #d1d5db;
+}
+
+.identity-card:nth-child(2) h2 {
+  color: #facc15;
+}
+
+.identity-card:nth-child(2) p {
+  color: #e5e7eb;
+}
+
+.identity-card:nth-child(2) .card-meta {
+  color: #9ca3af;
+}
+
+.identity-card:nth-child(3) h2 {
+  color: #f59e0b;
+}
+
+.identity-card:nth-child(3) p {
+  color: #2dd4bf;
+}
+
+.section-label {
+  color: #818cf8;
+}
+
+@media (max-width: 600px) {
+  .identity-hero {
+    margin-top: 7vh;
+    margin-bottom: 3vh;
+  }
+
+  .identity-personal-info {
+    margin-top: 12px;
+  }
+
+  .identity-intro {
+    margin-top: 10px;
+  }
+}
