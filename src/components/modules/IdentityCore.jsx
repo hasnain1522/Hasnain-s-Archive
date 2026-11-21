@@ -7,7 +7,7 @@ export default function IdentityCore({ onBack }) {
   return <main className="identity-core">
     <header className="identity-header">
     <button type="button" className="back-button" onClick={onBack}>← COMMAND CENTER</button>
-    <div className="identity-system-status">IDENTITY CORE / ONLINE</div></header>
+    </header>
     <section className="identity-hero"><span className="identity-index">01 / IDENTITY CORE</span>
       <div className="identity-hero-content">
       <div className="identity-hero-info"><h1>{SYSTEM_IDENTITY.owner}</h1>
@@ -38,6 +38,6 @@ export default function IdentityCore({ onBack }) {
       <section className="hobbies-section"><div className="section-label">HOBBIES & INTERESTS</div>
         <div className="hobbies-grid">{HOBBIES.map((hobby)=>
     <div className="hobby-item" key={hobby}>{hobby}</div>)}</div></section>
-      <footer className="identity-footer"><span>HASNAIN.OS / IDENTITY CORE</span>
+      <footer className="identity-footer"><span className="archive-signature">Hasnain&apos;s Archive</span>
         <button type="button" className="back-button" onClick={onBack}>RETURN TO COMMAND CENTER</button></footer></main>;
 }
