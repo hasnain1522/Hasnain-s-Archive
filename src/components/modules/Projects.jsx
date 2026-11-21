@@ -13,7 +13,19 @@ export default function Projects({ onBack }) {
   const allRecords = [...PROJECTS, ...HACKATHONS];
   const record = allRecords.find((item) => item.id === selected);
 
-  if (record) return <main className="projects-interface project-detail-view"><header className="projects-header"><button type="button" className="projects-back" onClick={() => setSelected(null)}>← DATABASE</button><span>PROJECT DATABASE / {record.id}</span></header><section className="project-detail"><div className="project-detail-kicker">{record.classification || record.event} / {record.type || "HACKATHON BUILD"}</div><div className="project-detail-title-row"><span className="project-index">[{record.id}]</span><h1>{record.name}</h1></div><p className="project-detail-description">{record.description}</p><div className="project-detail-grid"><div><span className="hud-label">SYSTEM SUMMARY</span><p>{record.summary}</p></div><div><span className="hud-label">STATUS</span><strong>{record.status}</strong></div><div><span className="hud-label">TECH CORE</span><div className="tech-list">{record.stack.map((tech) => <span key={tech}>{tech}</span>)}</div></div></div>{record.participation && <section className="project-participation"><span className="hud-label">HACKATHON PARTICIPATION</span><p>{record.participation}</p></section>}{record.training && <section className="project-training">
+  if (record) return <main className="projects-interface project-detail-view"><header className="projects-header"><button type="button" className="projects-back" onClick={() => setSelected(null)}>← DATABASE</button><span>PROJECT DATABASE / {record.id}</span></header><section className="project-detail"><div className="project-detail-kicker">{record.classification || record.event} / {record.type || "HACKATHON BUILD"}</div><div className="project-detail-title-row"><span className="project-index">[{record.id}]</span><h1>{record.name}</h1></div><p className="project-detail-description">{record.description}</p><div className="project-detail-grid"><div><span className="hud-label">SYSTEM SUMMARY</span><p>{record.summary}</p></div><div><span className="hud-label">STATUS</span><strong>{record.status}</strong></div><div><span className="hud-label">TECH CORE</span><div className="tech-list">{record.stack.map((tech) => <span key={tech}>{tech}</span>)}</div></div></div>{record.participation && <section className="project-participation"><span className="hud-label">HACKATHON PARTICIPATION</span><p>{record.participation}</p></section>}{record.hackathonDetails && <section className="hackathon-detail-panel">
+  <div className="hud-label">COMPETITION RECORD / PARTICIPATION DETAILS</div>
+  <div className="hackathon-facts">
+    <article><span>FORMAT</span><strong>{record.hackathonDetails.format}</strong></article>
+    {record.hackathonDetails.participationType && <article><span>PARTICIPATION</span><strong>{record.hackathonDetails.participationType}</strong></article>}
+    {record.hackathonDetails.nextStage && <article><span>NEXT STAGE</span><strong>{record.hackathonDetails.nextStage}</strong></article>}
+    <article><span>OUTCOME</span><strong>{record.hackathonDetails.outcome}</strong></article>
+    {record.hackathonDetails.timeline && <article><span>TIMELINE</span><strong>{record.hackathonDetails.timeline}</strong></article>}
+  </div>
+  <div className="hackathon-story">
+    {["context","challenge","solution","implementation","developmentContext","learning","recordNote"].filter((key)=>record.hackathonDetails[key]).map((key,index)=><article key={key}><span>{["CONTEXT","CHALLENGE","PROJECT APPROACH","IMPLEMENTATION","DEVELOPMENT CONTEXT","LEARNING & EXPERIENCE","DOCUMENTATION NOTE"][["context","challenge","solution","implementation","developmentContext","learning","recordNote"].indexOf(key)]}</span><p>{record.hackathonDetails[key]}</p></article>)}
+  </div>
+</section>}{record.training && <section className="project-training">
   <div className="hud-label">LEARNING CONTEXT / BOOTCAMP</div>
   <div className="training-heading"><h2>{record.training.title}</h2><span>{record.training.duration}</span></div>
   <strong className="training-provider">{record.training.provider}</strong>
