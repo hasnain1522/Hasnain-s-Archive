@@ -104,3 +104,27 @@
 .acknowledgement-section strong { color:#f5c96a; font-weight:600; }
 .acknowledgement-section a { color:#38bdf8; text-decoration:none; border-bottom:1px solid rgba(56,189,248,.35); }
 .acknowledgement-section a:hover { color:#2dd4bf; }
+
+
+/* Hackathon record — clear event format, selection outcome and build narrative */
+.hackathon-detail-panel {
+  margin-top: 26px;
+  padding: 26px 28px;
+  border: 1px solid rgba(245,201,106,.24);
+  background: linear-gradient(140deg,rgba(120,82,25,.11),rgba(15,23,42,.2));
+}
+.hackathon-detail-panel>.hud-label { color:#f5c96a; margin-bottom:18px; }
+.hackathon-facts { display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); border-top:1px solid rgba(245,201,106,.16); border-left:1px solid rgba(245,201,106,.16); }
+.hackathon-facts article { min-height:92px; padding:15px; border-right:1px solid rgba(245,201,106,.16); border-bottom:1px solid rgba(245,201,106,.16); background:rgba(245,201,106,.025); }
+.hackathon-facts article span,.hackathon-story article>span { display:block; color:#a5a0f5; font-size:.56rem; letter-spacing:.15em; margin-bottom:10px; }
+.hackathon-facts article strong { display:block; color:#f5d58e; font-size:.72rem; font-weight:500; line-height:1.6; }
+.hackathon-story { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:0 24px; margin-top:10px; }
+.hackathon-story article { padding:18px 0; border-bottom:1px solid rgba(148,163,184,.12); }
+.hackathon-story article>span { color:#38bdf8; }
+.hackathon-story article p { margin:0; color:#cbd5e1; font-size:.76rem; line-height:1.8; }
+.hackathon-story article:last-child { grid-column:1/-1; }
+@media(max-width:700px) {
+ .hackathon-detail-panel { padding:20px 16px; }
+ .hackathon-story { grid-template-columns:1fr; }
+ .hackathon-story article:last-child { grid-column:auto; }
+}
