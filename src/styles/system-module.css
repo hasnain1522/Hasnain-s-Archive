@@ -19,3 +19,21 @@
 .timeline article,.roadmap article { border-color:color-mix(in srgb,var(--module-accent,#62d8ff) 20%,transparent); }
 .timeline article div { border-color:color-mix(in srgb,var(--module-accent,#62d8ff) 45%,transparent); }
 .roadmap article>span,.roadmap article>b { color:var(--module-accent,#62d8ff); }
+
+
+/* Consistent Archive signature anchored at the bottom-left of module pages */
+.module-brand-footer {
+  width: min(1120px,100%);
+  margin: 72px auto 0;
+  padding: 22px 0 12px;
+  border-top: 1px solid rgba(148,163,184,.14);
+  position: relative;
+  z-index: 1;
+}
+.archive-signature {
+  color: #8fa3b2;
+  font-size: .62rem;
+  font-weight: 600;
+  letter-spacing: .16em;
+  text-transform: none;
+}
