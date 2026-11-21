@@ -5,17 +5,17 @@ export const PROJECTS = [
     type: "PYTHON BOOTCAMP BUILD",
     status: "BUILT",
     repository: "https://github.com/hasnain1522/Simple-Bank-Chatbot",
-    summary: "The first recorded build — a simple rule-based Python banking chatbot created during a one-week bootcamp before the EAPCET result.",
-    description: "The starting point of the build journey: a compact Python chatbot created during a one-week bootcamp, focused on learning programming logic, user input and rule-based conversation flows.",
+    summary: "The first recorded build — a simple rule-based Python banking chatbot built during a one-week AI/ML bootcamp after appearing for TG EAPCET.",
+    description: "The starting point of the build journey: a compact Python chatbot built during the one-week AI/ML Bootcamp at NGCC Software Technologies, Hyderabad. It applied the Python and chatbot-development concepts introduced during the bootcamp through a simple rule-based conversation flow.",
     stack: ["Python", "Rule-Based Logic"],
     classification: "FIRST BUILD",
     training: {
       title: "AI/ML FOUNDATION BOOTCAMP",
       provider: "NGCC Software Technologies, Hyderabad",
       duration: "1 week",
-      context: "After completing my Intermediate studies, I appeared for the TG EAPCET examination and later attended a one-week AI/ML Bootcamp conducted by NGCC Software Technologies, Hyderabad.",
-      learning: "During the bootcamp, I was introduced to concepts related to Artificial Intelligence, Machine Learning, Python and chatbot development. I applied these fundamentals by building this simple Bank Chatbot in Python.",
-      acknowledgement: "The bootcamp provided an opportunity to learn, practise and turn introductory concepts into a working project.",
+      context: "After completing my Intermediate studies, I appeared for the TG EAPCET examination and later attended a one-week AI/ML Bootcamp conducted by NGCC Software Technologies, Hyderabad. I built this Simple Bank Chatbot during the bootcamp as a practical exercise."
+      learning: "During the bootcamp, I was introduced to concepts related to Artificial Intelligence, Machine Learning, Python and chatbot development. While attending the bootcamp, I applied the concepts being taught by building this simple rule-based Bank Chatbot in Python.",
+      acknowledgement: "The bootcamp provided an opportunity to learn and practise introductory AI/ML and Python concepts while building a working beginner-level project."
     },
     features: [
       "Greeting and conversational responses",
@@ -74,7 +74,7 @@ export const PROJECTS = [
       "Banking information and sample rates are illustrative predefined responses, not live bank information.",
     ],
     evolution: [
-      "01 — First project: built the Simple Bank Chatbot during the one-week bootcamp.",
+      "01 — First project: built the Simple Bank Chatbot during the one-week AI/ML Bootcamp at NGCC Software Technologies, Hyderabad."
       "02 — Practiced Python fundamentals, user input, conditions and banking-style conversation logic.",
       "03 — Built confidence to move from a first working program into larger web and software experiments.",
     ],
