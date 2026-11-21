@@ -1,3 +1,6 @@
 /* Tech Core module-specific styling. Shared module primitives live in system-module.css. */
 .tech-core-module .sm-hero p{max-width:640px}
 .tech-core-module .sm-card{min-height:245px}
+.tech-core-module { --module-accent:#38bdf8; --module-muted:#7dd3fc; }
+.tech-core-module .sm-hero h1 { color:#e0f2fe; }
+.tech-core-module .sm-card:nth-child(3n+2) small { color:#2dd4bf; }
