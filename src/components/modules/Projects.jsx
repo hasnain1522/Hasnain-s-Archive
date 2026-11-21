@@ -33,6 +33,19 @@ export default function Projects({ onBack }) {
   <div className="hud-label">DEVELOPMENT ENVIRONMENT</div>
   <div className="tech-list">{record.environment.map((item)=><span key={item}>{item}</span>)}</div>
 </section>}
+{record.runGuide && <section className="project-info-section">
+  <div className="hud-label">RUN THE PROJECT / QUICK START</div>
+  <div className="project-step-list">{record.runGuide.map((step,index)=><article key={step}><span>{String(index+1).padStart(2,"0")}</span><p>{step}</p></article>)}</div>
+</section>}
+{record.sampleConversation && <section className="project-info-section conversation-section">
+  <div className="hud-label">SAMPLE CONVERSATION / TERMINAL PREVIEW</div>
+  <div className="terminal-conversation">{record.sampleConversation.map((line,index)=><div key={index} className={line.speaker==="BOT"?"bot-line":"user-line"}><b>{line.speaker==="BOT"?"BOT":"YOU"}</b><span>{line.message}</span></div>)}</div>
+</section>}
+{record.acknowledgement && <section className="project-info-section acknowledgement-section">
+  <div className="hud-label">ACKNOWLEDGEMENT</div>
+  <p>Special thanks to <strong>{record.acknowledgement.organization}</strong> for organizing the bootcamp and providing an opportunity to learn and practise introductory AI/ML concepts.</p>
+  <p>Grateful to <a href={record.acknowledgement.mentorProfile} target="_blank" rel="noreferrer">{record.acknowledgement.mentor}</a> for the teaching and guidance during the bootcamp.</p>
+</section>}
 {record.learningOutcomes && <section className="project-info-section">
   <div className="hud-label">CONCEPTS PRACTISED / LEARNING OUTCOMES</div>
   <div className="project-chip-grid learning-chips">{record.learningOutcomes.map((item,index)=><span key={item}><b>{String(index+1).padStart(2,"0")}</b>{item}</span>)}</div>
