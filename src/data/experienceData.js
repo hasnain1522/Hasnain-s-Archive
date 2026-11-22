@@ -1,6 +1,8 @@
 export const EXPERIENCE = [
-  ["2025 — PRESENT", "B.Tech CSE (AI/ML)", "Shadan College of Engineering", "Current academic path focused on computer science and AI/ML."],
-  ["2025 — PRESENT", "Technical Member", "Nexus Coding Club", "Programming, Git, Python, web and AI learning and activities."],
-  ["2025 — PRESENT", "GeM Practical Exposure", "Government e-Marketplace", "Exposure to product listings, catalogues, bidding, vendor/OEM requirements and procurement workflows."],
-  ["2026", "Hackathon Builder", "StockSense / DEVFORGE", "Built and presented software systems through competitive development workflows."],
+  ["2025 — PRESENT", "B.Tech CSE (AI/ML)", "Shadan College of Engineering", "Pursuing a Bachelor of Technology in Computer Science and Engineering (AI/ML), building foundations in programming, computer science and applied AI."],
+  ["2025 — PRESENT", "Technical Member", "Nexus Coding Club", "Collaborate with club members on technical learning activities and student engagement. Support Python, Fundamentals of Programming and Git workshops, assist with orientation sessions, coordinate with peers and contribute to a cooperative, hands-on learning environment."],
+  ["2025 — PRESENT", "GeM Practical Exposure", "Government e-Marketplace", "Practical exposure to product listings, catalogue preparation, tender and bidding workflows, vendor documentation, OEM requirements and procurement processes through hands-on work."],
+  ["2026", "Hackathon Builder", "StockSense / DevForge / RFPulse", "Worked on team and individual software prototypes through competitive development workflows: StockSense for inventory management, DevForge for Python repository analysis, and RFPulse for AI-assisted RFP intelligence. Practised problem framing, rapid prototyping, debugging, collaboration and documenting project outcomes."],
+  ["2025", "AI/ML Bootcamp Participant", "NGCC Software Technologies, Hyderabad", "Completed a one-week introductory AI/ML bootcamp after Intermediate studies, exploring Python, AI/ML fundamentals and chatbot development; built a rule-based Python Bank Chatbot as a practical exercise."],
+  ["2026", "Oracle Certified", "Oracle — Agentic AI Foundation Associate", "Earned the Oracle Agentic AI Foundation Associate certification with a score of 80%, demonstrating foundational knowledge of agentic AI concepts."],
 ];
