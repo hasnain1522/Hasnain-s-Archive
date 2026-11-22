@@ -128,6 +128,7 @@ export const PROJECTS = [
       "02 — Expanded the architecture with a Manager Agent and specialist Career, Job and Business agents.",
       "03 — Added web research, personalization, sessions, guardrails and model fallback.",
       "04 — Evolved the work into the CareerGuide-AI product identity and cloud-deployed experience.",
+      "05 — Began exploring a broader career-support ecosystem connecting students, colleges and companies, while keeping the existing CareerGuide identity.",
     ],
   },
 ];
