@@ -10,6 +10,12 @@ export default function Projects({ onBack }) {
   const [selected, setSelected] = useState(null);
   const [booted, setBooted] = useState(false);
   useEffect(() => { window.scrollTo(0, 0); const timer = window.setTimeout(() => setBooted(true), 180); return () => window.clearTimeout(timer); }, []);
+  useEffect(() => {
+    // Reset the document scroll whenever a database record is opened or closed.
+    window.scrollTo(0, 0);
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+  }, [selected]);
   const allRecords = [...PROJECTS, ...HACKATHONS];
   const record = allRecords.find((item) => item.id === selected);
 
